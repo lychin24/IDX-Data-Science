@@ -11,11 +11,13 @@ General Information
 - LotSizeAcres                    Total acerage of the lot
 - BuildingAreaTotal               Total area of the structure
 - BathroomsTotalInteger           Number of bathrooms
+- BedroomsTotal                   Number of bedrooms
 - LivingArea                      Total livable area within structure
 - Flooring                        List of all types of flooring
 - Stories                         Number of floors
 - GarageSpaces                    Number of garage spaces
 - CoveredSpaces                   Number of garage and carport spaces
+
 
 Amenities
 - ViewYN                          Whether the property has a view
