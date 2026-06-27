@@ -1,0 +1,45 @@
+Target Column: ClosePrice
+- The amount of money paid by the purchaser to the seller for the property under the agreement
+- Note: Do not use ListPrice or OriginalListPrice as features in your machine learning models, as they introduce data leakage and can artificially inflate model performance.
+
+Key Columns
+_________________________________________________________________________________________________
+General Information
+- PropertyType
+- PropertySubType
+- LotSizeSquareFeet
+- LotSizeAcres
+- BuildingAreaTotal
+- BathroomsTotalInteger
+- LivingArea
+- Flooring
+- Stories
+- Levels
+- GarageSpaces
+- CoveredSpaces
+
+Amenities
+- ViewYN
+- WaterfrontYN
+- BasementYN
+- PoolPrivateYN
+- FireplaceYN
+- FireplacesTotal
+- AttatchedGarageYN
+
+Location
+- Latitude
+- Longitude
+- City
+- StateorProvince
+- Postal Code
+- ElementarySchoolDistrict                   
+- MiddleOrJuniorSchoolDistrict              
+- HighSchoolDistrict 
+
+Dates
+- YearBuilt
+- CloseDate
+- DaysOnMarket
+
+
