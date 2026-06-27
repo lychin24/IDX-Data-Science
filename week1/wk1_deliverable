@@ -1,0 +1,45 @@
+Target Column: ClosePrice
+- The amount of money paid by the purchaser to the seller for the property under the agreement
+- Note: Do not use ListPrice or OriginalListPrice as features in machine learning models, they introduce data leakage and can artificially inflate model performance.
+
+Key Columns
+---------------------------------------------------------------------------------------------------------------
+General Information
+- PropertyType                    Types of properties, only interested in Residential Properties
+- PropertySubType                 Subtypes to given property types, only interested in SingleFamilyResidence
+- LotSizeSquareFeet               Total square footage of the lot
+- LotSizeAcres                    Total acerage of the lot
+- BuildingAreaTotal               Total area of the structure
+- BathroomsTotalInteger           Number of bathrooms
+- BedroomsTotal                   Number of bedrooms
+- LivingArea                      Total livable area within structure
+- Flooring                        List of all types of flooring
+- Stories                         Number of floors
+- GarageSpaces                    Number of garage spaces
+- CoveredSpaces                   Number of garage and carport spaces
+
+
+Amenities
+- ViewYN                          Whether the property has a view
+- WaterfrontYN                    Whether the property is on the waterfront
+- BasementYN                      Whether the property has a basement
+- PoolPrivateYN                   Whether the property has a private pool
+- FireplaceYN                     Whether the property has a fireplace
+- FireplacesTotal                 Number of fireplaces
+- AttatchedGarageYN               Whether the property has an attached garage
+
+Location
+- Latitude                        Geographical latitude of the property
+- Longitude                       Geographical longitude of the property
+- City                            City on listing address
+- StateorProvince                 Postal abbreviation for state or province of the property
+- Postal Code                     Postal code of the property 
+- ElementarySchoolDistrict        Elementary school district the property falls under            
+- MiddleOrJuniorSchoolDistrict    Middle or junior school district the property falls under             
+- HighSchoolDistrict              High school district the property falls under 
+- TaxAnnualAmount                 Annual property tax amount for the property
+
+Dates
+- YearBuilt                       Year an occupancy permit is first granted for the property
+- CloseDate                       Date the purchase agreement was fulfilled for the property
+- DaysOnMarket                    Number of days the listing is on market
